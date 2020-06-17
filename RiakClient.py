@@ -13,6 +13,7 @@ class RiakClient:
         bucket = self.get_bucket()
         obj = bucket.new(key, data={**data})
         obj.store()
+        return obj.key
 
     def get_object(self, key):
         bucket = self.get_bucket()

@@ -1,0 +1,3 @@
+{'name': 'Cedric Daniels', 'age': 42, 'company': 'Lieutenant'}
+{'name': 'John', 'age': 42, 'company': 'Lieutenant'}
+None
